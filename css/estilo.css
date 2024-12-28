@@ -27,7 +27,7 @@ html{
 header{
     background-color: var(--corprojeto1);
     color: var(--branco);
-    padding: 1%;
+    
     position: fixed;
     width: 100%;
 }
@@ -142,7 +142,7 @@ p{
 
 /*Divs*/
 .separador{
-    margin-top: 8%;
+    margin-top: 10%;
 }
 .separador-conteudo{
     margin-top: 0.5%;
@@ -152,7 +152,7 @@ p{
 /*Paragrafos mobile*/
 @media(min-width: 320px) and (max-width: 1024px){
     .separador{
-        margin-top: 20%;
+        margin-top: 30%;
     }
 }
 
