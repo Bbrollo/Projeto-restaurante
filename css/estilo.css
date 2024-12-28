@@ -85,10 +85,13 @@ aside{
 h1{
     font-size: 2em;
     margin-top: 3%;
+    text-align: center;
+    color: var(--corprojeto1);
 }
 
 h2{
     font-size: 1.5em;
+    color: var(--corprojeto1);
 }
 
 h3{
