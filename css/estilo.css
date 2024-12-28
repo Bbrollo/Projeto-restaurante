@@ -50,7 +50,6 @@ a:hover{
     color: var(--cinza);
 }
 
-
 footer{
     background-color: var(--preto);
     color: var(--branco);
@@ -79,6 +78,16 @@ aside{
     width: 90%;
     border-radius: 15px;
     box-shadow: 2px 2px 10px 0px black;
+}
+
+/*Configs de Links de produtos*/
+.menu{
+    color: var(--branco);
+    background-color: var(--corprojeto1);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px var(--corprojeto6);
+    font-size: 1.3em;
 }
 
 /*em é medida padrão, 1 em é 16px*/
