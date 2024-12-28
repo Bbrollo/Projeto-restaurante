@@ -4,6 +4,13 @@
     --cinza: rgb(212, 212, 212);
     --verde: rgb(10, 173, 10);
     --verde2: rgb(23, 219, 23);
+
+    --corprojeto1: rgb(172, 10, 10);
+    --corprojeto2: rgb(224, 16, 16);
+    --corprojeto3: rgb(151, 42, 42);
+    --corprojeto4: rgb(170, 170,21);
+    --corprojeto5: rgb(247, 247, 7);
+    --corprojeto6: rgb(255, 136, 0);
 }
 
 *{
@@ -18,7 +25,7 @@ html{
 }
 
 header{
-    background-color: var(--preto);
+    background-color: var(--corprojeto1);
     color: var(--branco);
     padding: 1%;
     position: fixed;
@@ -96,10 +103,28 @@ h1,h2,h3,h4,h5,h6{
     padding-bottom: 0.5%;
 }
 
+/*Config de imagem*/
+
 img{
     width: 100%;
     padding-top: 1%;
     border-radius: 15px;
+}
+
+#topo{
+    width: 400px;
+    height: 130px;
+    display: block;
+    margin: auto;
+}
+
+@media(min-width: 320px) and (max-width: 1024px){
+    #topo{
+        width: 340px;
+        height: 100px;
+        display: block;
+        margin: auto;
+    }
 }
 
 /*Configs de paragrafos*/
