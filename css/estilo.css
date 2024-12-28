@@ -51,9 +51,8 @@ a:hover{
 }
 
 footer{
-    background-color: var(--preto);
+    background-color: var(--corprojeto1);
     color: var(--branco);
-    padding: 1%;
     text-align: center;
     font-weight: bold;
 }
@@ -133,6 +132,22 @@ img{
 @media(min-width: 320px) and (max-width: 1024px){
     #topo{
         width: 340px;
+        height: 100px;
+        display: block;
+        margin: auto;
+    }
+}
+
+#rodape{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+@media(min-width: 320px) and (max-width: 1024px){
+    #rodape{
+        width: 100px;
         height: 100px;
         display: block;
         margin: auto;
