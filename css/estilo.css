@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 :root{ /*Possível salvar variaveis*/
     --preto: rgb(0, 0, 0);
     --branco: rgb(255, 255, 255);
@@ -91,15 +93,39 @@ aside{
 
 /*em é medida padrão, 1 em é 16px*/
 h1{
-    font-size: 2em;
+    font-size: 3.5em;
     margin-top: 3%;
     text-align: center;
     color: var(--corprojeto1);
+    font-family: "Kaushan Script", serif;
+    text-shadow: 1px 1px 1px var(--corprojeto6);
 }
 
 h2{
-    font-size: 1.5em;
+    font-size: 2.5em;
     color: var(--corprojeto1);
+    text-align: center;
+    text-shadow: 1px 1px 2px var(--corprojeto6);
+    text-shadow: 1px 1px 1px var(--corprojeto6);
+}
+
+@media(min-width: 320px) and (max-width: 1024px){
+    h1{
+        font-size: 2.5em;
+        margin-top: 3%;
+        text-align: center;
+        color: var(--corprojeto1);
+        font-family: "Kaushan Script", serif;
+        text-shadow: 1px 1px 1px var(--corprojeto6);
+    }
+    
+    h2{
+        font-size: 2em;
+        color: var(--corprojeto1);
+        text-align: center;
+        text-shadow: 1px 1px 2px var(--corprojeto6);
+        text-shadow: 1px 1px 1px var(--corprojeto6);
+    }
 }
 
 h3{
@@ -184,21 +210,24 @@ p{
 }
 
 /*Configs da grade de conteudo - Grids*/
-#grid-conteudo{
-    background-color: var(--cinza);
+.grid-conteudo{
+    background-color: var(--branco);
+    padding: 0.5%;
 }
 .grid{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /*auto-fill: preenche o espaço com o minimo de 300px e o maximo de 1fr*/
     max-width: 1024px;
     margin: auto;
-    gap: 1.5px
+    gap: 8px
     
 }
 .grid div{
     background-color: var(--branco);
     text-align: center;
     padding: 2px;
+    box-shadow: 1px 1px 1px 2px var(--corprojeto6);
+    border-radius: 20px;
 }
 
 /*Config para Botões de ação*/
