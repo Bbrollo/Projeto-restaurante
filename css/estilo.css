@@ -259,4 +259,25 @@ button:hover{ /*quando passar o mouse por cima*/
     text-shadow: 1px 1px 5px black;
 }
 
+#whats{
+    width: 100px;
+    height: 50px;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    margin: 6em;
+}
 
+@media(min-width: 320px) and (max-width: 1024px){
+    #whats{
+    width: 90px;
+    height: 40px;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    margin: 6em;
+    margin-right: 9px;
+    }
+}
